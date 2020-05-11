@@ -1,0 +1,360 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "zzzz-zzzz",
+      "name" : "New York City Population By Neighborhood Tabulation Areas",
+      "attribution" : "Department of City Planning (DCP)",
+      "attributionLink" : "http://www.nyc.gov/html/dcp/html/census/demo_tables_2010.shtml",
+      "averageRating" : 0,
+      "category" : "City Government",
+      "createdAt" : 1362329696,
+      "description" : "Population Numbers By New York City Neighborhood Tabulation Areas\r\n\r\nThe data was collected from Census Bureaus' Decennial data dissemination (SF1). \r\nNeighborhood Tabulation Areas (NTAs), are aggregations of census tracts that are subsets of New York City's 55 Public Use Microdata Areas (PUMAs). Primarily due to these constraints, NTA boundaries and their associated names may not definitively represent neighborhoods. \r\nThis report shows change in population from 2000 to 2010 for each NTA.\r\nCompiled by the Population Division – New York City Department of City Planning.",
+      "displayType" : "table",
+      "downloadCount" : 0,
+      "hideFromCatalog" : true,
+      "hideFromDataJson" : true,
+      "indexUpdatedAt" : 1536597092,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 0,
+      "provenance" : "community",
+      "publicationAppendEnabled" : false,
+      "publicationGroup" : 711151,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1372266975,
+      "rowsUpdatedBy" : "uurm-7z6x",
+      "tableId" : 942510,
+      "totalTimesRated" : 0,
+      "viewCount" : 0,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "state" : "submittable",
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "workflowId" : 2285,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 77013871,
+        "name" : "Borough",
+        "dataTypeName" : "text",
+        "fieldName" : "borough",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 8319043,
+        "width" : 111,
+        "format" : { }
+      }, {
+        "id" : 77013872,
+        "name" : "Year",
+        "dataTypeName" : "text",
+        "fieldName" : "year",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 8319044,
+        "width" : 70,
+        "format" : { }
+      }, {
+        "id" : 77013873,
+        "name" : "FIPS County Code",
+        "dataTypeName" : "text",
+        "fieldName" : "fips_county_code",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 8319045,
+        "width" : 148,
+        "format" : { }
+      }, {
+        "id" : 77013874,
+        "name" : "NTA Code",
+        "dataTypeName" : "text",
+        "fieldName" : "nta_code",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 8319046,
+        "width" : 97,
+        "format" : { }
+      }, {
+        "id" : 77013875,
+        "name" : "NTA Name",
+        "dataTypeName" : "text",
+        "fieldName" : "nta_name",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 8319047,
+        "width" : 196,
+        "format" : { }
+      }, {
+        "id" : 77013876,
+        "name" : "Population",
+        "dataTypeName" : "number",
+        "fieldName" : "population",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 8319048,
+        "width" : 101,
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "rdfClass" : "",
+        "rdfSubject" : "0",
+        "attachments" : [ {
+          "filename" : "New_York_City_Population_By_Neighborhood_Tabulation_Areas.xlsx",
+          "assetId" : "88f17212-6c85-4e35-97ee-31f55fa81286",
+          "name" : "New_York_City_Population_By_Neighborhood_Tabulation_Areas.xlsx"
+        }, {
+          "filename" : "nynta_metadata.pdf",
+          "assetId" : "78a519c1-b1f1-497b-9823-4afa882480d4",
+          "name" : "nynta_metadata.pdf"
+        } ],
+        "custom_fields" : {
+          "Update" : {
+            "Automation" : "No",
+            "Date Made Public" : "3/4/2013",
+            "Update Frequency" : "Annually"
+          },
+          "Legislative Compliance" : {
+            "Geo-coding Attached?" : ""
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of City Planning (DCP)"
+          }
+        },
+        "rowIdentifier" : "0",
+        "rowLabel" : "Neighborhood Tabulation Area (NTA)",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "query" : {
+        "filterCondition" : {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "OR",
+            "children" : [ {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnId" : 77013871,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "Brooklyn"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            } ],
+            "metadata" : {
+              "tableColumnId" : {
+                "711151" : 8319043
+              },
+              "operator" : "EQUALS"
+            }
+          } ],
+          "metadata" : {
+            "unifiedVersion" : 2
+          }
+        }
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "8b43-zkvh",
+        "displayName" : "Ram S.",
+        "screenName" : "Ram S.",
+        "type" : "interactive",
+        "userSegment" : "community_user"
+      },
+      "tags" : [ "dcp", "city", "planning", "population", "growth", "nta", "neighborhood", "tabulation" ],
+      "flags" : [ "restorable", "restorePossibleForType", "unsaved" ]
+    }
+  },
+  "data" : [ [ "row-ehjv-a8u9.7wyj", "00000000-0000-0000-7947-CE85B9FCC11E", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK09", "Brooklyn Heights-Cobble Hill", "22548" ]
+, [ "row-6b6e_ivu5~vuwq", "00000000-0000-0000-0455-8D0973C91D84", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK17", "Sheepshead Bay-Gerritsen Beach-Manhattn Bch", "64596" ]
+, [ "row-wgy2~veu7~pqk4", "00000000-0000-0000-080A-96103D4DEAFD", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK19", "Brighton Beach", "35244" ]
+, [ "row-xmpa-p84k_bx5i", "00000000-0000-0000-B94A-7DE8E173093C", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK21", "Seagate-Coney Island", "34267" ]
+, [ "row-f555-q5xv-zdn4", "00000000-0000-0000-1F2E-5B625FB0E60C", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK23", "West Brighton", "17370" ]
+, [ "row-uxj8~jvip.g94m", "00000000-0000-0000-3012-5D51FC8DD5C9", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK25", "Homecrest", "45679" ]
+, [ "row-3eeq~i8sz-53vg", "00000000-0000-0000-C39F-2BBD4D540068", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK26", "Gravesend", "29257" ]
+, [ "row-dbdy~arwu_nrnu", "00000000-0000-0000-FA91-CFCA14ECAF9A", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK27", "Bath Beach", "28572" ]
+, [ "row-epq4.py6x_szx9", "00000000-0000-0000-40E3-392138930779", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK28", "Bensonhurst West", "84640" ]
+, [ "row-472r~ga6w_m6z3", "00000000-0000-0000-FD6C-D687D6BBC39C", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK29", "Bensonhurst East", "58566" ]
+, [ "row-kfhh-dn7v.kti9", "00000000-0000-0000-996B-F7C151A46273", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK30", "Dyker Heights", "39332" ]
+, [ "row-uwvg-hb9k~by3s", "00000000-0000-0000-20DE-0A0218A8131C", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK31", "Bay Ridge", "80539" ]
+, [ "row-7acd-kruc_vmjs", "00000000-0000-0000-2F6A-026DA5AF873E", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK32", "Sunset Park West", "52312" ]
+, [ "row-wf3q.axav_4wp8", "00000000-0000-0000-9941-93A00F49C23D", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK33", "Carroll Gardens-Columbia Street-Red Hook", "38327" ]
+, [ "row-ugn2.keem-smix", "00000000-0000-0000-6070-3F4B53D72AB0", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK34", "Sunset Park East", "66150" ]
+, [ "row-67ss.d23f_epn4", "00000000-0000-0000-A562-54F5FB6348A2", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK35", "Stuyvesant Heights", "61827" ]
+, [ "row-nydv~85pk~p59q", "00000000-0000-0000-4C64-D2468215F4C0", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK37", "Park Slope-Gowanus", "67263" ]
+, [ "row-xxeb.rujq~jps4", "00000000-0000-0000-C8C7-A06290991932", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK38", "DUMBO-Vinegar Hill-Downtown Brklyn-Boerum Hill", "30847" ]
+, [ "row-2muy-u3w5~5ngv", "00000000-0000-0000-0283-D811AC1F4C71", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK40", "Windsor Terrace", "20779" ]
+, [ "row-qf3x~evmj.8vda", "00000000-0000-0000-CCC7-1088700AC9DF", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK41", "Kensington-Ocean Parkway", "36937" ]
+, [ "row-43dy-knz4_chq6", "00000000-0000-0000-D500-03E90FF788D1", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK42", "Flatbush", "110875" ]
+, [ "row-8f85~yjsb_kmr2", "00000000-0000-0000-5BF9-79CE8B013151", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK43", "Midwood", "55440" ]
+, [ "row-8rg6~gi9h-g6gh", "00000000-0000-0000-4FCD-0C0A4E354C8F", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK44", "Madison", "39076" ]
+, [ "row-4urr-nb37~gwer", "00000000-0000-0000-5E3D-AE27C445C605", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK45", "Georgetown-Marine Park-Bergen Beach-Mill Basin", "42940" ]
+, [ "row-q877~tqtn.q47y", "00000000-0000-0000-ECCC-EFF4AEBA2C95", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK46", "Ocean Parkway South", "20556" ]
+, [ "row-gwfd~9sbb.vk7m", "00000000-0000-0000-FF88-390FE47A59CC", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK50", "Canarsie", "85058" ]
+, [ "row-yv6x~r3kn~xd6y", "00000000-0000-0000-E690-3125DFABE8BE", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK58", "Flatlands", "66726" ]
+, [ "row-phpu~wgxd-5u3s", "00000000-0000-0000-972C-27153A51A0E9", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK60", "Prospect Lefferts Gardens-Wingate", "70300" ]
+, [ "row-k6u3~44dh~hghb", "00000000-0000-0000-373E-6D10E2CD84AE", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK61", "Crown Heights North", "103462" ]
+, [ "row-422v~q2t8~uf3r", "00000000-0000-0000-A979-CE6A9810C7A5", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK63", "Crown Heights South", "42370" ]
+, [ "row-6whj-iywi.7f43", "00000000-0000-0000-AF34-EC9DBBC9412A", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK64", "Prospect Heights", "19655" ]
+, [ "row-yp8k_wydc-nbqg", "00000000-0000-0000-B931-029CCF56690C", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK68", "Fort Greene", "28335" ]
+, [ "row-9tk7-expd-q5w7", "00000000-0000-0000-6EE5-3BA4614CCDB6", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK69", "Clinton Hill", "33292" ]
+, [ "row-pvkg-9mvg.zew5", "00000000-0000-0000-C100-12789107292D", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK72", "Williamsburg", "32269" ]
+, [ "row-2nfh-admb.d3t8", "00000000-0000-0000-FCF3-56B0C133C405", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK73", "North Side-South Side", "40130" ]
+, [ "row-4uxs_wn2w_bvnn", "00000000-0000-0000-21C5-242106A160F6", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK75", "Bedford", "59227" ]
+, [ "row-vicv~msjv_acrh", "00000000-0000-0000-7239-D6AD9B7B8D70", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK76", "Greenpoint", "37821" ]
+, [ "row-xpd6.8j8c.er6f", "00000000-0000-0000-D8C0-E91E0D87415F", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK77", "Bushwick North", "56093" ]
+, [ "row-umrw~f2qj_58z9", "00000000-0000-0000-4F0E-F92E462ED66E", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK78", "Bushwick South", "64617" ]
+, [ "row-pcih.qwyr~erp7", "00000000-0000-0000-A9D9-FAC913B96993", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK79", "Ocean Hill", "30067" ]
+, [ "row-w3yg_6vde~j25a", "00000000-0000-0000-3673-D4FF49A0D7A4", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK81", "Brownsville", "59099" ]
+, [ "row-e885~2gvp-2y6y", "00000000-0000-0000-1D54-D193A0C2E4B7", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK82", "East New York", "83275" ]
+, [ "row-mkpx_68bj.xad2", "00000000-0000-0000-9FAB-440FAFF93CCC", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK83", "Cypress Hills-City Line", "48961" ]
+, [ "row-psqs~tsqi_xd24", "00000000-0000-0000-8283-AC813C85D397", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK85", "East New York (Pennsylvania Ave)", "27624" ]
+, [ "row-ymfp~unqj-ifgi", "00000000-0000-0000-5BB7-E1655F17D598", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK88", "Borough Park", "101055" ]
+, [ "row-gagf.hdxk-nnat", "00000000-0000-0000-FEAC-6DF3B52A936E", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK90", "East Williamsburg", "31878" ]
+, [ "row-un74-38w2.vrd7", "00000000-0000-0000-148D-FDA749EE2A4C", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK91", "East Flatbush-Farragut", "56033" ]
+, [ "row-is58-vedi-vhuz", "00000000-0000-0000-8B66-045D616F2C29", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK93", "Starrett City", "14621" ]
+, [ "row-wt7x.amm7_akbv", "00000000-0000-0000-841B-0A8814C57D75", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK95", "Erasmus", "31392" ]
+, [ "row-tsd7-p27j-ud5b", "00000000-0000-0000-0958-741FFF608C78", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK96", "Rugby-Remsen Village", "57934" ]
+, [ "row-qt7r.fpsu.ye9y", "00000000-0000-0000-27B2-584D1B6BA722", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2000", "047", "BK99", "park-cemetery-etc-Brooklyn", "93" ]
+, [ "row-zjdx_66kt.hfk7", "00000000-0000-0000-A7DF-8BCB192B3B0F", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK09", "Brooklyn Heights-Cobble Hill", "22887" ]
+, [ "row-2hgh-rpsp-xctu", "00000000-0000-0000-96DB-C07C4CF4C63F", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK17", "Sheepshead Bay-Gerritsen Beach-Manhattn Bch", "64518" ]
+, [ "row-bzw8~6st5_e6ai", "00000000-0000-0000-0EE3-D759D6DFC653", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK19", "Brighton Beach", "35547" ]
+, [ "row-vdht-fc4s~xrk4", "00000000-0000-0000-1592-141CCE495C4D", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK21", "Seagate-Coney Island", "31965" ]
+, [ "row-a8ki-q3gw~3zz3", "00000000-0000-0000-A793-C1DADE1752F8", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK23", "West Brighton", "17750" ]
+, [ "row-i8wr.zcc8~bpa8", "00000000-0000-0000-38E3-697EF3696C13", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK25", "Homecrest", "44316" ]
+, [ "row-kfyw-nw22-mkut", "00000000-0000-0000-870A-CFED7A67C37E", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK26", "Gravesend", "29436" ]
+, [ "row-cscv.fx3b_82k3", "00000000-0000-0000-A3B0-FE86FFBF3688", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK27", "Bath Beach", "29931" ]
+, [ "row-fdau-eqr8-p4nj", "00000000-0000-0000-0EA4-7723A4005355", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK28", "Bensonhurst West", "88727" ]
+, [ "row-brmn.uggi.9xu9", "00000000-0000-0000-211A-37A62166851E", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK29", "Bensonhurst East", "62978" ]
+, [ "row-s7zc.ndzk-xzsj", "00000000-0000-0000-9B13-EFCE766A1601", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK30", "Dyker Heights", "42419" ]
+, [ "row-45sj_cs33~bb4w", "00000000-0000-0000-2285-6797937FCA86", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK31", "Bay Ridge", "79371" ]
+, [ "row-iq4e.4chx_4qkj", "00000000-0000-0000-A20F-7CF1D1DFF308", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK32", "Sunset Park West", "54041" ]
+, [ "row-i6w6-nczw.p24s", "00000000-0000-0000-AC1A-6CBF9D89F9F6", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK33", "Carroll Gardens-Columbia Street-Red Hook", "38353" ]
+, [ "row-mmmx_gvjq~x8mj", "00000000-0000-0000-E75B-69591489327E", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK34", "Sunset Park East", "72340" ]
+, [ "row-yeba~3c78-cvtm", "00000000-0000-0000-FDFE-2A7B598B9AE8", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK35", "Stuyvesant Heights", "63504" ]
+, [ "row-jg25.9nwr~hazn", "00000000-0000-0000-CA6F-B938CB024C34", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK37", "Park Slope-Gowanus", "67649" ]
+, [ "row-zb8j.fjqz-mivj", "00000000-0000-0000-075B-037B6849C6FD", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK38", "DUMBO-Vinegar Hill-Downtown Brklyn-Boerum Hill", "34495" ]
+, [ "row-6ykj_m49a.dr89", "00000000-0000-0000-EF37-CBCC3DF239B9", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK40", "Windsor Terrace", "20988" ]
+, [ "row-mmut~qjvh_fvfj", "00000000-0000-0000-858D-E5946B96D06E", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK41", "Kensington-Ocean Parkway", "36891" ]
+, [ "row-8ink_58rr-95r9", "00000000-0000-0000-007C-89DD9B86CDDB", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK42", "Flatbush", "105804" ]
+, [ "row-gyeq.gx87~kas9", "00000000-0000-0000-3A2D-65253AAFC98D", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK43", "Midwood", "52835" ]
+, [ "row-gbf8~sxrz-d9nh", "00000000-0000-0000-9A67-8F34F4FC8238", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK44", "Madison", "38917" ]
+, [ "row-pkpc-y66w~wgdy", "00000000-0000-0000-D84C-47321CACCD1D", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK45", "Georgetown-Marine Park-Bergen Beach-Mill Basin", "45231" ]
+, [ "row-7hg2.dqzz-u9sj", "00000000-0000-0000-EAC7-B42DBC027180", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK46", "Ocean Parkway South", "20299" ]
+, [ "row-8ivn~uxz2_hmbg", "00000000-0000-0000-EAF4-36D0718C0E0E", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK50", "Canarsie", "83693" ]
+, [ "row-tp8h-bzf8-upk3", "00000000-0000-0000-6B4C-90EFACA475C5", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK58", "Flatlands", "64762" ]
+, [ "row-d85u.2dqy-gmcu", "00000000-0000-0000-5BC4-C9D03006C871", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK60", "Prospect Lefferts Gardens-Wingate", "67459" ]
+, [ "row-4gvd~sxxd.a53c", "00000000-0000-0000-C5E6-4CF1427DF639", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK61", "Crown Heights North", "103169" ]
+, [ "row-x2qn.3wjk_hahq", "00000000-0000-0000-2E7B-3D182D94B546", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK63", "Crown Heights South", "39670" ]
+, [ "row-zhfs-kzx7~4gqp", "00000000-0000-0000-191A-AC5B8769661E", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK64", "Prospect Heights", "19849" ]
+, [ "row-sjxa.jxvw.rjcs", "00000000-0000-0000-F50F-895603EB3131", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK68", "Fort Greene", "26079" ]
+, [ "row-9hm5_m4xv_2694", "00000000-0000-0000-39EF-AF880E32C153", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK69", "Clinton Hill", "34791" ]
+, [ "row-3j7j~r45b-izas", "00000000-0000-0000-09F6-7F8D25B1F160", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK72", "Williamsburg", "32926" ]
+, [ "row-i8eu_ar3f.bebv", "00000000-0000-0000-D43E-45E4CFFB29D8", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK73", "North Side-South Side", "45774" ]
+, [ "row-ssp3~fc45-ahz4", "00000000-0000-0000-E0B5-EF93168BCF36", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK75", "Bedford", "70713" ]
+, [ "row-ym9i_6uf5~t7r8", "00000000-0000-0000-7125-253D49985F62", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK76", "Greenpoint", "34719" ]
+, [ "row-k5aw.45yj.s859", "00000000-0000-0000-21B9-077B0659ACE0", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK77", "Bushwick North", "57138" ]
+, [ "row-atd7_ctfv_wrk7", "00000000-0000-0000-512C-19AF3BDE25E8", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK78", "Bushwick South", "72101" ]
+, [ "row-3hnq-ygwi.whh6", "00000000-0000-0000-9ECE-7293F7E85123", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK79", "Ocean Hill", "31935" ]
+, [ "row-nzj9.zmgw_4b76", "00000000-0000-0000-1326-63BDE0A55BC3", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK81", "Brownsville", "58300" ]
+, [ "row-z5jf_dkcj~dwgc", "00000000-0000-0000-37D5-608565CAE86A", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK82", "East New York", "91958" ]
+, [ "row-2hby.qzn5-zwxr", "00000000-0000-0000-EC62-815A0DE98C33", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK83", "Cypress Hills-City Line", "49223" ]
+, [ "row-i8dt~3fye-8yhp", "00000000-0000-0000-55CC-68D2146FF2EF", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK85", "East New York (Pennsylvania Ave)", "29343" ]
+, [ "row-4gka~a58d.tvgx", "00000000-0000-0000-2279-0DBED8948F2F", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK88", "Borough Park", "106357" ]
+, [ "row-ma2c_wjxj~aa4x", "00000000-0000-0000-8F88-0C6D8482CD4A", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK90", "East Williamsburg", "34158" ]
+, [ "row-ubxz~x7ku.2mnw", "00000000-0000-0000-866F-2988A0E2E0DB", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK91", "East Flatbush-Farragut", "50355" ]
+, [ "row-dpkb.tr6f~bars", "00000000-0000-0000-50B6-34F3B7D037E6", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK93", "Starrett City", "13354" ]
+, [ "row-9jsq.cwrf.b57k", "00000000-0000-0000-5D33-985FC21E45C4", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK95", "Erasmus", "29938" ]
+, [ "row-e2cc~xqih_dkfn", "00000000-0000-0000-A560-351510740B41", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK96", "Rugby-Remsen Village", "55326" ]
+, [ "row-4aju-irq4~85rh", "00000000-0000-0000-8C7B-9F00D46C57C0", 0, 1425769289, null, 1425769289, null, "{ }", "Brooklyn", "2010", "047", "BK99", "park-cemetery-etc-Brooklyn", "418" ]
+ ]
+}
