@@ -1,7 +1,7 @@
 # Battle of Neighborhoods in New York City
 
 ## Warning
-Github does not allow to display the New York map. To visualize the map correctly, please click on the following link:
+Github does not allow to display the map of New York. To visualize it correctly, please click on the following link:
 https://nbviewer.jupyter.org/github/mtortoli/Battle-of-Neighborhoods-in-New-York-City/blob/master/battle_of_neighborhoods_nyc.ipynb.
 
 ## Introduction
